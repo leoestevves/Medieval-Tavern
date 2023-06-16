@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9190610717445121376}
   - component: {fileID: -2360174901793351740}
   - component: {fileID: 1292350989994755455}
+  - component: {fileID: -6957585656585682686}
   m_Layer: 0
   m_Name: Bacon
   m_TagString: Untagged
@@ -118,3 +119,15 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 744313659978572012, guid: e29406717c78eec4a98e98ca93a0af5a, type: 3}
+--- !u!114 &-6957585656585682686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7244998434868511925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbc50580b4ba4094aa8eb58fec249452, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

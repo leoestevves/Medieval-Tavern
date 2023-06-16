@@ -4,14 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "New Sandwich", menuName = "Sandwich/New Sandwich")]
-public class Sandwich_Creator : ScriptableObject
+public class Sandwich : ScriptableObject
 {
     [SerializeField] string sandwichName;
     [SerializeField] Sprite sandwichIcon;
 
-    [SerializeField] string firstIngredient;
-    [SerializeField] string secondIngredient;
-    [SerializeField] string thirdIngredient;
+    [SerializeField] string sandwichIngredient1;
+    [SerializeField] string sandwichIngredient2;
+    [SerializeField] string sandwichIngredient3;
 
-
+    [SerializeField] int sandwichValue;
 }
