@@ -31,12 +31,12 @@ public class ClickInteractions : MonoBehaviour
         {
             if (gameObject.tag == "Food")
             {
-                Instantiate(cloneFood, new Vector3(-1.94f, 1.65f, -8.083f), cloneFood.rotation);
+                Instantiate(cloneFood, new Vector3(-2.05f, 1.65f, -8.083f), cloneFood.rotation); // Posição que vai spawnar os ingredientes
                 finishRequest.resetPlate = false;
             }
 
             logicScript.plateValue += foodValue; //Pega o valor do prato (inicialmente 0) e adiciona o valor atual + o valor do ingrediente
-            Debug.Log(logicScript.plateValue + "  " + logicScript.requestValue);
+            //Debug.Log(logicScript.plateValue + "  " + logicScript.requestValue);
         }        
     }
 }

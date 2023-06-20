@@ -25,12 +25,12 @@ public class FinishRequest : MonoBehaviour
         if (logicScript.requestValue == logicScript.plateValue)
         {
             logicScript.addScore(1);
-            Debug.Log("Prato certo!");
+            //Debug.Log("Prato certo!");
         }
         else
         {
             logicScript.removeScore(1);
-            Debug.Log("Prato errado!");
+            //Debug.Log("Prato errado!");
         }
 
         ResetTable();        

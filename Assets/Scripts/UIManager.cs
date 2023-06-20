@@ -83,4 +83,9 @@ public class UIManager : MonoBehaviour
         Time.timeScale = 0f;
         gameIsActive = false;
     }
+
+    /*public void BackToTutorial()
+    {
+        SceneManager.LoadScene(0);
+    }*/
 }
